@@ -15,6 +15,7 @@
 		F9CEAAD11E14EEF100599BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CEAACF1E14EEF100599BC9 /* LaunchScreen.storyboard */; };
 		F9CEAADC1E14EEF100599BC9 /* MapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CEAADB1E14EEF100599BC9 /* MapTests.m */; };
 		F9CEAAE71E14EEF100599BC9 /* MapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CEAAE61E14EEF100599BC9 /* MapUITests.m */; };
+		F9CEAAF51E14EEFF00599BC9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CEAAF41E14EEFF00599BC9 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F9CEAAE21E14EEF100599BC9 /* MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CEAAE61E14EEF100599BC9 /* MapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapUITests.m; sourceTree = "<group>"; };
 		F9CEAAE81E14EEF100599BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9CEAAF41E14EEFF00599BC9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9CEAAF51E14EEFF00599BC9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		F9CEAAB51E14EEF100599BC9 = {
 			isa = PBXGroup;
 			children = (
+				F9CEAAF41E14EEFF00599BC9 /* MapKit.framework */,
 				F9CEAAC01E14EEF100599BC9 /* Map */,
 				F9CEAADA1E14EEF100599BC9 /* MapTests */,
 				F9CEAAE51E14EEF100599BC9 /* MapUITests */,
